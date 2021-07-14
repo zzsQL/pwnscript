@@ -1,2 +1,1 @@
-# pwnscript
-My developing script for doing an initial recon of a remote single target. Not an entire network. Used mostly on OSCP's proving grounds. 
+I'm developing a script to do my initial recon and vulnerability analsys but I'm new at offensive cyber so don't be too judgemental please. For now, I've based the script on all I know about active recon but I'm totally open to constructive and useful criticism so firea way if you have something useful to add.
