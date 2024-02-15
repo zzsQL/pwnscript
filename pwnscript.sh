@@ -27,9 +27,6 @@ nmap -T4 -v -p 21,20 --script=ftp*.nse --script-args=unsafe=1 $targetIP -oN nmap
 #SSH 22 Version
 nmap -sV -p 22 $targetIP -oN nmap-ssh.out &
 #
-#Dig up some UDP Ports
-nmap -sU -p- $targetIP -oN nmap-udp.out &
-#
 #SMTP Enum - Vuln Scans
 smtp-user-enum -M VRFY -U /home/loki/passes/users.txt -t $targetIP >smtp-user-enum.out &
 nmap -T4 -sV -p25 $targetIP -oN smtp-vulns.out &
